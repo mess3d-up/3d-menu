@@ -1,0 +1,190 @@
+{
+  "asset": {
+    "generator": "Microsoft GLTF Exporter 2.8.3.66",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 10287,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2581,
+      "type": "VEC3",
+      "max": [
+        4.017475128173828,
+        0.8584307432174683,
+        2.783726215362549
+      ],
+      "min": [
+        -4.017475128173828,
+        0,
+        -2.783726215362549
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2581,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2581,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 2581,
+      "type": "VEC2"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 20576,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20576,
+      "byteLength": 30972,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 51548,
+      "byteLength": 30972,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 82520,
+      "byteLength": 41296,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 123816,
+      "byteLength": 20648,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "Pizza slice_data.bin",
+      "byteLength": 144464
+    }
+  ],
+  "images": [
+    {
+      "uri": "Pizza slice_img0.png"
+    },
+    {
+      "uri": "Pizza slice_img1.png"
+    },
+    {
+      "uri": "Pizza slice_img2.png"
+    }
+  ],
+  "materials": [
+    {
+      "normalTexture": {
+        "index": 2
+      },
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseTexture": {
+            "index": 0
+          },
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TANGENT": 3,
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "name": "RootNode.0"
+    },
+    {
+      "mesh": 0,
+      "name": "Pizza_Slice.1"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 1,
+      "source": 1
+    },
+    {
+      "sampler": 2,
+      "source": 2
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ]
+}
